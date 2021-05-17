@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>经纬度获取-三叔博客</title>
+    <script>
+    window.addEventListener('load', function() {
+        if (navigator.geolocation) {
+            navigator.geolocation.watchPosition(update);
+        }
+    }, false);
+
+    function update(position) {
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        document.write('维度:' + lat + ', 经度:' + lng);
+    }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
