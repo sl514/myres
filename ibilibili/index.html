@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang=zh><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content=viggo><title>爱哔哩(B站视频、音频mp3解析下载站)</title><meta name=keywords content=二次元工具箱><meta name=description content="ibilibili - 二次元工具箱"><link href=/css/app.c0b580d0.css rel=preload as=style><link href=/js/app.e9673ac5.js rel=preload as=script><link href=/js/chunk-vendors.bbd43367.js rel=preload as=script><link href=/css/app.c0b580d0.css rel=stylesheet></head><body class=page-body><div id=app></div><script async src=//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script><script src=//cdn.bootcss.com/vue/2.6.10/vue.runtime.min.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/jquery-1.11.1.min.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/bootstrap.min.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/TweenMax.min.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/resizeable.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/joinable.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/xenon-api.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/xenon-toggles.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/xenon-custom.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/lozad.js></script><script src=//cdn.jsdelivr.net/gh/sl514/WebStackPage.github.io@master/assets/js/jquery-1.11.1.min.js></script><script>Vue.nextTick(() => {
+            $(document).on('click', '.has-sub', function() {
+                var _this = $(this)
+                if (!$(this).hasClass('expanded')) {
+                    setTimeout(function() {
+                        _this.find('ul').attr("style", "")
+                    }, 300);
+                } else {
+                    $('.has-sub ul').each(function(id, ele) {
+                        var _that = $(this)
+                        if (_this.find('ul')[0] != ele) {
+                            setTimeout(function() {
+                                _that.attr("style", "")
+                            }, 300);
+                        }
+                    })
+                }
+            })
+
+            $('.user-info-menu .hidden-sm').click(function() {
+                if ($('.sidebar-menu').hasClass('collapsed')) {
+                    $('.has-sub.expanded > ul').attr("style", "")
+                } else {
+                    $('.has-sub.expanded > ul').show()
+                }
+            })
+
+            $("#main-menu li ul li").click(function() {
+                $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+                $(this).addClass('active'); // 添加当前元素的样式
+            });
+        })</script><script>var currentUrl = "https://www.bilibili.com/video/BV17C4y1W7c7";
+
+        function parse() {
+            var url1 = u.value;
+            if (url1 == "") {
+                url1 = currentUrl;
+            }
+            window.location.href = url1.replace('bilibili', 'ibilibili');
+        }
+        $(function() {
+
+
+            $("#u").attr("placeholder", currentUrl);
+
+            $("#u,#btnParse").keypress(function(e) {
+                if (e.which == 13) {
+                    parse();
+                }
+            });
+
+
+        })
+
+        function updateCount(c) {
+            document.getElementById("vcount").innerText = c;
+        }
+        $(document).ready(function() {
+            //img lazy loaded
+            const observer = lozad();
+            observer.observe();
+
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        });</script><script src=//www.ibilibili.com/bilitools/ajax/video_count/ ></script><script src=/js/chunk-vendors.bbd43367.js></script><script src=/js/app.e9673ac5.js></script></body></html>
