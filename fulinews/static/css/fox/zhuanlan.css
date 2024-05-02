@@ -1,0 +1,301 @@
+.aw-content-wrap {
+    margin:0px 0 15px 0;
+    border: 0px solid #e6e6e6;
+    border-radius: 4px;
+	font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.aw-main-content {
+    padding: 0;
+    border-right: 0px solid #e6e6e6;
+}
+.home .top {
+    position: relative;
+    height: 360px;
+    text-align: center;
+    z-index: 0;
+    background: url(zhuanlan/bg.png) center no-repeat;
+}
+.home .top h1 {
+    width: 128px;
+    height: 0;
+    padding-top: 190px;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+	background: url(zhuanlan/logo.png) center no-repeat;
+    background-size: 128px 190px;
+    left: 50%;
+    margin-left: -15px;
+    top: 45px;
+}
+.home .top h3 {
+    width: 128px;
+    height: 0;
+    padding-top: 190px;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+	background: url(zhuanlan/logoa.png) center no-repeat;
+    background-size: 128px 190px;
+    left: 50%;
+    margin-left: -15px;
+    top: 45px;
+}
+.home .top h4 {
+    width: 128px;
+    height: 0;
+    padding-top: 190px;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+	background: url(zhuanlan/logob.png) center no-repeat;
+    background-size: 128px 190px;
+    left: 50%;
+    margin-left: -15px;
+    top: 45px;
+}
+.home .top h2 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+    position: absolute;
+    top: 290px;
+    width: 100%;
+    color: #2a2a2a;
+    letter-spacing: .5em;
+}
+.home .top .write-btn {
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    width: 102px;
+    height: 38px;
+    margin-left: -51px;
+    line-height: 36px;
+    padding: 0;
+    min-height: 0;
+    min-width: 0;
+    box-sizing: border-box;
+	border-radius:4px;
+}
+.home .top .write-btn:hover{background:#f9f9f9;}
+.btn-black {
+    border-color: #333;
+    color: #333;
+}
+.myzhuanlan{margin:30px;font-size:16px;line-height:40px; border-bottom:1px solid #428bca;}
+.myzhuanlan a{margin:0 10px;color:#428bca;}.myzhuanlan a:hover{color:#ff3300;}.myzhuanlan a.active{font-weight:bold;color:#ff3300;}
+.zhuanlanset{margin:10px 30px;text-align:right;padding:15px 0;}.zhuanlanset span{color:#ff3300;}
+.joinzhuanlan{margin:0 auto 30px;width:500px;    border: 1px solid #e6e6e6;    border-radius: 4px;}
+
+.l-receptacle { 
+	margin:0 auto;    
+    position: relative;
+	clear:both;
+}
+.l-receptacle h3 {
+	margin-left: 30px;
+    margin-right: 30px;
+	height:30px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+	border-top:1px solid #eee;
+}
+.l-receptacle h3 span {
+	top:-15px;
+	left:50%;
+	margin-left: -55px;
+    padding: 0 16px;
+    background: #fbfbfb;
+    position: absolute;
+    z-index: 1;
+	color:#999;
+}
+.hz-daren{padding-bottom:30px;margin-bottom:20px}
+.hz-daren .daren-list{margin:0 -15px;}
+.hz-daren .daren-list .gebox{padding:5px;text-align:center;}
+.hz-daren .list-item a.active {color: #333;font-size: 16px;font-weight: 700;}
+.hz-daren .list-item .text-o-show{font-size:14px;color:#666;line-height:22px;margin-bottom:10px;height:45px;overflow:hidden;}
+.hz-daren .list-item {margin-bottom:10px;padding:20px 10px;border:1px solid #eee;border-radius:4px;height:300px;overflow:hidden;}
+.hz-daren .list-item p{margin-bottom:0;}
+.hz-daren .list-item .avatar{border-radius:50%;text-align:center;}
+.hz-daren .list-item .avatar img{max-width:100%;width:100px;border-radius:50%;height:auto}
+.hz-daren .list-item .avatar img:hover{-webkit-transform:scale(1.05,1.05);-moz-transform:scale(1.05,1.05);-ms-transform:scale(1.05,1.05);-o-transform:scale(1.05,1.05);transform:scale(1.05,1.05);-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+.hz-daren .list-item .main{padding-top:10px}
+.hz-daren .list-item .icons{margin:5px 0 5px 0;font-size:12px;}
+.hz-daren .list-item .icons span{color:#888;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sec-more {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sec-more a {
+    font-size: 14px;
+    border: 1px solid #46c37b;
+	color:#46c37b;
+    border-radius: 6px;
+    padding: 3px 15px;
+    display: inline-block;
+}
+.btn{border-radius:0;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+.tops{margin:0 auto;width: 100%;
+  max-width: 970px;margin-top:40px;text-align:center;}
+.tops .avatar{border-radius:50%;text-align:center;}
+.tops .avatar img{max-width:100%;width:120px;border-radius:50%;height:auto}
+.tops .avatar img:hover{-webkit-transform:scale(1.05,1.05);-moz-transform:scale(1.05,1.05);-ms-transform:scale(1.05,1.05);-o-transform:scale(1.05,1.05);transform:scale(1.05,1.05);-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+.tops .tit{color: #333;font-size: 24px;font-weight: 700;line-height:50px;}
+.tops .tits{color: #666;font-size: 16px;line-height:30px;}
+.tops .titst{color: #999;font-size: 14px;line-height:30px;}
+
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+.cd-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+.cd-timeline-block:last-child {
+  margin-bottom: 0;
+}
+
+
+.cd-timeline-img {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.cd-timeline-img img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.cd-timeline-img.cd-picture {
+  background: #75ce66;
+}
+.cd-timeline-img.cd-movie {
+  background: #c03b44;
+}
+.cd-timeline-img.cd-location {
+  background: #f0ca45;
+}
+
+
+.cd-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 3px 0 #d7e4ed;
+}
+.cd-timeline-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-timeline-content h2 {
+  color: #303e49;
+  font-size:24px;
+}
+.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  font-size: 14px;
+  font-size: 0.8125rem;
+}
+.cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  display: inline-block;
+}
+.cd-timeline-content p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+.cd-timeline-content p img.img-polaroid-zl{float:left;
+max-width: 100%;
+margin-right:15px;
+margin-bottom:5px;max-height: 130px;
+min-width: 150px;}
+.cd-timeline-content .memo{font-size:14px;}
+.cd-timeline-content .cd-read-more {
+  float: right;
+  padding: .8em 1em;
+  background: #acb7c0;
+  color: white;
+  border-radius: 0.25em;
+}
+.no-touch .cd-timeline-content .cd-read-more:hover {
+  background-color: #bac4cb;  
+}
+a.cd-read-more:hover{text-decoration:none; background-color: #424242;  }
+.cd-timeline-content .cd-date {
+  float: left;
+  padding: .8em 0;
+  opacity: .7;
+}
+.cd-timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid white;
+}
+
